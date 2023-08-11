@@ -21,7 +21,7 @@ n = rand() - RAND_MAX / 2;
    }
  else
    {
-     printf("$d is positive", n);
+     printf("%d is positive", n);
    }
  return (0);
 }
