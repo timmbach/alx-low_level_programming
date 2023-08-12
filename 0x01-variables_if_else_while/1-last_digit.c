@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main entry point
+ * main - Determines either greater than 5, is less than 6, or is 0
  *
- * checks for numbers greater thna 5, equal to 0 and less than 6
  * Return: 0 (success)
  */
 int main(void)
