@@ -14,9 +14,9 @@ for (i = 0; i < 26; i++)
 putchar(letter);
 letter++;
 }
+letter = 'a';
 for (i = 0; i < 26; i++)
 {
-letter = 'a';
 putchar(toupper(letter));
 letter++;
 }
