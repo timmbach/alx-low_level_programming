@@ -4,6 +4,7 @@
 /**
  * main entry point
  *
+ * checks for numbers greater thna 5, equal to 0 and less than 6
  * Return: 0 (success)
  */
 int main(void)
