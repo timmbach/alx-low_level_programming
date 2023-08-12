@@ -12,8 +12,12 @@ int i;
 for (i = 0; i < 26; i++)
 {
 putchar(letter);
-putchar(toupper(letter));
 letter++;
+}
+for (i = 0; i < 26; i++)
+{
+putchar(toupper(letter));
+letter++
 }
 putchar('\n');
 return (0);
