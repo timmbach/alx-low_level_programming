@@ -17,7 +17,7 @@ letter++;
 for (i = 0; i < 26; i++)
 {
 putchar(toupper(letter));
-letter++
+letter++;
 }
 putchar('\n');
 return (0);
