@@ -15,7 +15,7 @@ for (c  = 48; c <= 53; c++)
 {
 for (d = 48; d <= 57; d++)
 {
-if (a >= 51 && b >= 52)
+if (a >= 51 && c > 53)
 break;
 _putchar(a);
 _putchar(b);
