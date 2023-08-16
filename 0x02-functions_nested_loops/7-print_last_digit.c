@@ -17,6 +17,6 @@ return (-i);
 else
 {
 _putchar(i + 48);
-return (i);  
+return (i);
 }
 }
