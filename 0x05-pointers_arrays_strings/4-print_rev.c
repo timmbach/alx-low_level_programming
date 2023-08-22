@@ -12,7 +12,7 @@ while (*(s + i) != '\0')
 {
 i++;
 }
-while (i >= 0)
+while (i > 0)
 {
 printf("%c", *(s + i));
 i--;
