@@ -6,6 +6,6 @@
  */
 int _strlen(char *s)
 {
-int length = sizeof(*s)/sizeof(*s[0]);
+int length = sizeof(*s);
 return length;
 }
