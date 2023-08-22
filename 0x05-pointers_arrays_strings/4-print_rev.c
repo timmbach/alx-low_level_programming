@@ -14,7 +14,7 @@ i++;
 }
 while (i >= 0)
 {
-printf("%c", *(s + j));
+printf("%c", *(s + i));
 i--;
 }
 printf("\n");
