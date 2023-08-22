@@ -12,9 +12,10 @@ while (*(s + i) != '\0')
 {
 i++;
 }
-for (int j = i; j > 0; j--)
+while (i >= 0)
 {
 printf("%c", *(s + j));
+i--;
 }
 printf("\n");
 }
