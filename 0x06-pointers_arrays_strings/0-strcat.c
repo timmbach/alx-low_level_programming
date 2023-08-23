@@ -25,7 +25,7 @@ if (*(src + j) == '\0')
 break;
 }
 i++;
-j--;
+j++;
 }
 return (dest);
 }
